@@ -29,5 +29,5 @@ for (var i in panels){
 };
 document.getElementsByClassName('col-md-4 col-sm-6 hidden-xs')[0].style.background='#00000000'
 document.body.style['backgroundColor']='#1d1d1d';
-document.getElementById('statuspage_header_image')['src']='https://github.com/misspelled-usernaem/Darkmode/blob/main/Roblox.png?raw=true';
+document.getElementById('statuspage_header_image')['src']='https://raw.githubusercontent.com/misspelled-usernaem/Darkmode/main/Roblox.png';
 
