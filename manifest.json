@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "status.roblox.com darkmode",
+    "version": "1.0.1",
+    "description": "too bright",
+    "action":{
+      "default_popup": "index.html",
+      "default_title": "darkmode"
+    }
+  }
