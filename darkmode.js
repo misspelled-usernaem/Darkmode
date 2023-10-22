@@ -36,4 +36,4 @@ const setFunc=function(){
     document.getElementsByClassName('col-md-4 col-sm-6 hidden-xs')[0].style.background='#00000000'
 };
 
-setInterval(setFunc,100);
+setInterval(setFunc,25);
