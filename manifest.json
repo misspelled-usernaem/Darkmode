@@ -4,7 +4,14 @@
     "version": "1.0.1",
     "description": "too bright",
     "action":{
-      "default_popup": "index.html",
       "default_title": "darkmode"
-    }
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://status.roblox.com/*"],
+        "js": ["darkmode.js"],
+        "all_frames": false,
+        "run_at": "document_idle"
+      }
+    ]
   }
